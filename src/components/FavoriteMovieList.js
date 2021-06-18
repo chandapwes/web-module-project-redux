@@ -12,7 +12,7 @@ const FavoriteMovieList = (props) => {
     }
 
     return (<div className="col-xs savedContainer">
-        <h5>Favorite Movies</h5>
+        <h5> Your Favorite Movies</h5>
         {
             favorites.map(movie=>{
                 return <div key={movie.id}>
